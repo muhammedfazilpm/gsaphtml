@@ -9,7 +9,8 @@ gsap.to(".square", {
         trigger: ".square",
         start: "top 50%",
         end: "center 20%",
-        toggleActions:"restart reverse resume reset",
+        toggleActions:"restart pause resume reset",
+                      //play pause restart resume reverse reset complete none
                      //onenter onleave onenterback onleaveback
         markers: true,
         
