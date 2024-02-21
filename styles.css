@@ -14,6 +14,7 @@ body{
 
 .div2{
     background-color: salmon;
+    height: 100vh ;
 }
 
 .square{
@@ -28,4 +29,7 @@ body{
     background-color: blue;
     margin-top: 300px;
 
+}
+.red{
+    background-color: red;
 }
