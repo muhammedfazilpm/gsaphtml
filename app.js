@@ -9,8 +9,8 @@ gsap.to(".square", {
         trigger: ".square",
         start: "top 50%",
         end: "center 20%",
-        toggleActions:"restart reverse       none            none",
-        //             onenter onleave    onenterback     onleaveback
+        toggleActions:"restart reverse resume reset",
+                     //onenter onleave onenterback onleaveback
         markers: true,
         
         toggleClass:"red"
